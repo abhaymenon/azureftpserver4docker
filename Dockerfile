@@ -7,4 +7,4 @@ RUN mkdir /ftp_root
 
 EXPOSE 21
 
-ENTRYPOINT python -u entrypoint.py
+ENTRYPOINT python -u startup.py
